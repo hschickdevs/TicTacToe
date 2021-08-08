@@ -1,7 +1,3 @@
-# Modifications to original code:
-# 1. Converted the whole program into a class structure so that I can use class attributes as constant variables.
-# 2. Converted the variables created in the "start()" function to class attributes.
-
 class TicTacToe:
     def __init__(self):
         self.activeGame = True
